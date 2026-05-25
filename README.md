@@ -78,7 +78,7 @@ Configure your settings and click **SAVE & LAUNCH**.
 
 | Key | Action |
 |---|---|
-| F2 | Exit to menu |
+| F2 | Exit |
 
 ---
 
