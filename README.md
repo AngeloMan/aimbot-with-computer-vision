@@ -51,7 +51,7 @@ Compared to the original Lunar, this version adds:
 ## Requirements
 
 - Windows 10/11
-- Python 3.8+
+- Python 3.10
 - NVIDIA GPU with CUDA (recommended)
 - `lib/best.pt` — trained YOLOv5 model
 
@@ -81,7 +81,6 @@ Configure your settings and click **SAVE & LAUNCH**.
 
 | Key | Action |
 |---|---|
-| F1 | Toggle aimbot on/off |
 | F2 | Exit to menu |
 
 ---
