@@ -6,7 +6,7 @@ An improved version of [zeyad-mansour/Lunar](https://github.com/zeyad-mansour/Lu
 
 ---
 
-<!-- Screenshot of the menu here -->
+![Menu](images/menu.png)
 
 ---
 
