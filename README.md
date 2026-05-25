@@ -57,6 +57,7 @@ Compared to the original Lunar, this version adds:
 ## Installation
 
 ```bash
+!Run the terminal as administrator
 git clone https://github.com/AngeloMan/aimbot-with-computer-vision
 cd aimbot-with-computer-vision
 pip install -r requirements.txt
