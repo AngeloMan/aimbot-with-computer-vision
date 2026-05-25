@@ -289,8 +289,23 @@ class LunarMenu:
 
     def _save(self):
         os.makedirs(CONFIG_DIR, exist_ok=True)
+        # salva settings.json
         with open(SETT_PATH, "w") as f:
             json.dump(self._collect(), f, indent=2)
+        # salva config.json com sensibilidade em tempo real
+        try:
+            xy  = round(self.v["cfg_xy"].get(),  4)
+            tgt = round(self.v["cfg_tgt"].get(), 4)
+            sens = {
+                "xy_sens":         xy,
+                "targeting_sens":  tgt,
+                "xy_scale":        round(10 / xy, 6)            if xy          else 0,
+                "targeting_scale": round(1000 / (tgt * xy), 6) if xy and tgt  else 0,
+            }
+            with open(SENS_PATH, "w") as f:
+                json.dump(sens, f, indent=2)
+        except Exception:
+            pass
         self._flash_status("●  SALVO", CYAN, revert_ms=1500)
 
     # ── Status do processo ────────────────────────────────────────────────────
@@ -498,8 +513,8 @@ class LunarMenu:
                  bg=BG, fg=DIM, font=("Consolas", 8)).pack(anchor="w", pady=(0, 14))
 
         s = make_card(self.content, "Valores do Jogo", CYAN)
-        slider_row(s, "Sensibilidade X/Y", self.v["cfg_xy"],  0.1, 100.0, "")
-        slider_row(s, "Targeting Sens",    self.v["cfg_tgt"], 0.1, 500.0,  "")
+        slider_row(s, "Sensibilidade X/Y", self.v["cfg_xy"],  0.1, 30.0, "")
+        slider_row(s, "Targeting Sens",    self.v["cfg_tgt"], 0.1, 5.0,  "")
 
         # preview dos valores calculados
         def update_preview(*_):
