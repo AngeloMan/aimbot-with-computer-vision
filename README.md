@@ -2,8 +2,6 @@
 
 An improved version of [zeyad-mansour/Lunar](https://github.com/zeyad-mansour/Lunar) — a neural network aim assist using real-time object detection with YOLOv5 and PyTorch.
 
->  This project was developed for **educational and academic purposes only**, demonstrating the application of computer vision and real-time object detection.
-
 ---
 ![Demo](images/aimbot.gif)
 
