@@ -5,7 +5,7 @@ An improved version of [zeyad-mansour/Lunar](https://github.com/zeyad-mansour/Lu
 >  This project was developed for **educational and academic purposes only**, demonstrating the application of computer vision and real-time object detection.
 
 ---
-
+<img src="images/aimbot.git" width="800"/>
 ![Demo](images/aimbot.gif)
 
 ---
