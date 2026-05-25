@@ -86,7 +86,7 @@ Screen Capture (mss)
 ## Requirements
 
 - Windows 10/11
-- Python 3.8 or later
+- Python 3.10
 - NVIDIA GPU with CUDA support (recommended)
 - `lib/best.pt` (trained model file)
 
