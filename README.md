@@ -1,4 +1,4 @@
-# Lunar v2.0
+# Lunar 
 **Neural Network Aim Assist** — computer vision academic project using YOLOv5 and PyTorch.
 
 ---
