@@ -1,4 +1,4 @@
-# Aimbot based on Lunar 
+# AI aimbot based on Lunar 
 **Neural Network Aim Assist** — computer vision academic project using YOLOv5 and PyTorch.
 
 ---
