@@ -1,4 +1,4 @@
-# Lunar v2.0
+# open Lunar with menu and trigger bot 
 
 An improved version of [zeyad-mansour/Lunar](https://github.com/zeyad-mansour/Lunar) — a neural network aim assist using real-time object detection with YOLOv5 and PyTorch.
 
