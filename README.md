@@ -6,7 +6,7 @@ An improved version of [zeyad-mansour/Lunar](https://github.com/zeyad-mansour/Lu
 
 ---
 
-![Menu](images/menu.png)
+![Demo](images/aimbot.gif)
 
 ---
 
@@ -24,7 +24,7 @@ Compared to the original Lunar, this version adds:
 
 ## Menu
 
-<!-- Screenshot of the aimbot running here -->
+![Menu](images/menu.png)
 
 ### Aimbot
 - Enable / Disable
