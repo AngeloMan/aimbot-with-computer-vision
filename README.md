@@ -96,8 +96,8 @@ Screen Capture (mss)
 
 **1. Clone the repository**
 ```bash
-git clone https://github.com/your-username/lunar
-cd lunar
+git clone https://github.com/AngeloMan/aimbot-with-computer-vision
+cd aimbot-with-computer-vision
 ```
 
 **2. Install dependencies**
@@ -136,7 +136,6 @@ python lunar.py collect_data
 
 | Key | Action |
 |---|---|
-| F1 | Enable / disable aimbot |
 | F2 | Exit and return to menu |
 | 0 | Close the visualization window |
 
@@ -147,12 +146,7 @@ python lunar.py collect_data
 The `config.json` stores four values:
 
 ```json
-{
-  "xy_sens":         6.0,
-  "targeting_sens":  0.5,
-  "xy_scale":        1.6667,
-  "targeting_scale": 333.33
-}
+{"xy_sens": 13.0, "targeting_sens": 100.0, "xy_scale": 1, "targeting_scale": 1}
 ```
 
 | Field | Description |
