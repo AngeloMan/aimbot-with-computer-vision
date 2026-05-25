@@ -1,0 +1,18 @@
+{
+  "aimbot": {
+    "enabled": true,
+    "aim_bone": "Head",
+    "strength": 80,
+    "fov": 429,
+    "auto_aim": false,
+    "target_prediction": true,
+    "keybind": "RMB"
+  },
+  "triggerbot": {
+    "enabled": true,
+    "mode": "Toggle",
+    "trigger_delay": 23,
+    "tap_interval": 195,
+    "keybind": "Q"
+  }
+}
